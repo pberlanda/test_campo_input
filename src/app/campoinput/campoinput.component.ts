@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-campoinput',
   templateUrl: './campoinput.component.html',
-  styleUrls: ['./campoinput.component.css'],
+  styleUrls: ['./campoinput.component.css'], // [] indica che punta a un array di css, posso avere più file css
 })
 export class CampoinputComponent implements OnInit {
   name: string = '_____pb_____';
